@@ -1,6 +1,7 @@
 body {
   font-family: 'Karantina', cursive;
-  height: 300vh;
+  height: 400vh;
+  color: white;
 }
 
 .flex-row {
@@ -8,7 +9,6 @@ body {
 }
 
 header {
-  background-color: yellow;
   width: 100%;
   height: 100px;
   justify-content: center;
@@ -17,7 +17,6 @@ header {
 }
 
 .head-container {
-  background-color: aquamarine;
   width: 90%;
   justify-content: space-between;
 }
@@ -33,7 +32,6 @@ header {
 }
 
 nav {
-  background-color: blue;
   height: 100%;
 }
 
@@ -50,7 +48,6 @@ nav {
 }
 
 .shop {
-  background-color: red;
   height: 100%;
   justify-content: center;
   width: 100px;
@@ -64,9 +61,180 @@ nav {
 }
 
 .background-one {
+  background-image: url(https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.bg1-section {
+  position: absolute;
+  bottom: 15%;
+  right: 40px;
+  width: 40%;
+}
+
+.bg1-section h4 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.bg1-section h1 {
+  font-size: 80px;
+}
+
+.bg1-section button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+  font-family: 'Karantina', cursive;
+  font-size: 50px;
+  width: 150px;
+  height: 75px;
+  margin-top: 20px;
+}
+
+.background-two {
   background-image: url(https://images.unsplash.com/photo-1457364887197-9150188c107b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+  position: relative;
+}
+
+.bg2-section {
+  position: absolute;
+  bottom: 15%;
+  left: 40px;
+  width: 40%;
+}
+
+.bg2-section h4 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.bg2-section h1 {
+  font-size: 80px;
+}
+
+.bg2-section button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+  font-family: 'Karantina', cursive;
+  font-size: 50px;
+  width: 150px;
+  height: 75px;
+  margin-top: 20px;
+}
+
+.background-three {
+  background-image: url(https://images.unsplash.com/photo-1447433865958-f402f562b843?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.bg3-section {
+  position: absolute;
+  bottom: 15%;
+  left: 40px;
+  width: 40%;
+}
+
+.bg3-section h2 {
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.bg3-section p {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.bg3-section button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+  font-family: 'Karantina', cursive;
+  font-size: 30px;
+  width: 150px;
+  height: 75px;
+  margin-top: 20px;
+}
+
+.background-four {
+  background-image: url(https://images.unsplash.com/photo-1614314007212-0257d6e2f7d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.bg4-section {
+  position: absolute;
+  bottom: 15%;
+  left: 40px;
+  width: 40%;
+}
+
+.bg4-section h2 {
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.bg4-section p {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.bg4-section button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+  font-family: 'Karantina', cursive;
+  font-size: 30px;
+  width: 150px;
+  height: 75px;
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  text-align: center;
+  z-index: 90;
+  background-color: #1c1b17;
+  margin: 0 auto;
+}
+
+footer p {
+  width: 50%;
+  margin: 15px 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
